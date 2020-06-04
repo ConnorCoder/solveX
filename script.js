@@ -70,7 +70,7 @@ function brute() {
       }
       if(dif >= a[a.length - 1]) {
         nmi = Math.round((num - (int * 2)) * Math.pow(10, intL)) / Math.pow(10, intL);
-        nma = Math.round((num + int) * Math.pow(10, intL)) / Math.pow(10, intL);
+        nma = Math.round(num * Math.pow(10, intL)) / Math.pow(10, intL);
         break;
       }
       a.push(Math.abs(l - r));
