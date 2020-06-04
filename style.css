@@ -1,0 +1,51 @@
+* {
+  margin: auto;
+  font-family: Arial;
+  color: white;
+  font-size: 5vh;
+  transition-property: border;
+  transition-duration: 0.5s;
+}
+#small {
+  font-size: 2.5vh;
+}
+#small input {
+  width: 16.5vw;
+  height: 5vh;
+  font-size: 2.5vh;
+}
+body {
+  background: black;
+}
+input, button {
+  border: none;
+  border-bottom: 2px solid dodgerblue;
+  background: transparent;
+  color: inherit;
+  text-align: center;
+  width: 33vw;
+  height: 10vh;
+  font-size: 5vh;
+}
+input::placeholder {
+  color: dodgerblue;
+}
+input:hover, button:hover {
+  border-bottom: 2px solid white;
+}
+div {
+  text-align: center;
+  margin-top: 25vh;
+  transition: all 0.5s ease-in-out;
+  opacity: 1;
+}
+div button {
+  margin-top: 10vh;
+}
+textarea {
+  background: transparent;
+  color: white;
+  border: 2px solid dodgerblue;
+  width: 90vw;
+  height: 40vh;
+}

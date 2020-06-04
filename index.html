@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Equation Solver</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/mathjs@7.0.1/dist/math.min.js"></script>
+  </head>
+  <body>
+    <div id="exp">
+      <input id="exp1" placeholder="First Expression"/> = <input id="exp2" placeholder="Second Expression"/>
+      <br><button>Next</button>
+    </div>
+    <div id="opt" style="opacity: 0">
+      Range: <input id="rng-min" placeholder="Minimum"/><input id="rng-max" placeholder="Maximum"/><br>
+      Interval/Precision: <input id="int" placeholder=""/>
+      <br><button>Solve</button>
+    </div>
+    <div id="slvr" style="opacity: 0">
+      <div id="small"><input id="exp1r" readonly/> = <input id="exp2r" readonly/></div><br>
+      <span id="what">Testing...</span><br><br>
+      Solutions<br>
+      <textarea id="output"></textarea>
+    </div>
+  </body>
+</html>
